@@ -11,11 +11,15 @@
   align-items: center;
 }
 
-h2 {
+h2{
   font-size: medium;
   font-weight: 200;
 }
 /* END SETUP */
+h2:hover{
+  font-size: large;
+  background-color: yellow;
+}
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
@@ -32,6 +36,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -59,6 +64,11 @@ h2 {
 
 /* QUESTION 1 */
 
+.red{
+  background-color: red;
+}
+
+
 .orange {
   background-color: orange;
 }
@@ -75,7 +85,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -83,7 +93,7 @@ h2 {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
 }
 
@@ -93,21 +103,33 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
+.thailand-flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 16.67%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16.67%
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
+
 
 .romania-blue {
   background-color: #002c84;
@@ -130,7 +152,14 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  background: url("/Users/michael/cs198-99/hw2-realmichaeltao/eagle.png") center no-repeat white;
+  background-size:contain;
+  
+  
+  
 }
+
+
 
 .mexico-red {
   background-color: #ce1126;
@@ -144,6 +173,7 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 /* For margin practice */
@@ -155,6 +185,7 @@ h2 {
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-right: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +193,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
 }
